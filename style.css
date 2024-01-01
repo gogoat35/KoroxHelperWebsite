@@ -19,11 +19,38 @@ header {
   text-align: center;
 }
 
+/* Style the navigation menu */
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
 /* Style the main content area with some spacing and a border */
 main {
   margin: 20px;
-  border: 1px solid #ccc;
   padding: 20px;
+  border: 1px solid #ccc;
 }
 
 /* Style links with a different color and remove underlines */
@@ -36,12 +63,3 @@ a {
 a:hover {
   color: #2077b4;
 }
-
-/* Apply a simple responsive layout for smaller screens */
-@media (max-width: 600px) {
-  main {
-    margin: 10px;
-  }
-}
-
-/* Add more styles as needed for your specific project */
